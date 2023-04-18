@@ -4,7 +4,9 @@
 
 /**
  * print_dog, print_name, print_age, print_owner if not null
- * @d:pointer to struct dog
+ * 
+ * @d: pointer to struct dog
+* Return : no return
  **/
 
 void print_dog(struct dog *d)

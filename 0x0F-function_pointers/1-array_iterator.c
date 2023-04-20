@@ -1,12 +1,15 @@
 #include "function_pointers.h"
 
 /**
- * @array_iterator - function given as a parameter on each element of an array.
+ *array_iterator - function given as a parameter
+* on each element of an array.
  * @array - integer array
  * @size - size of array
  * @actio - function pointer
- * Return: no return.
+ * 
+ * Return: no return
  */
+ 
 void array_iterator(int *array, size_t size, void (*action)(int))
 
 {
